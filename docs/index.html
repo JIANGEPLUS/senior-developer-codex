@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Title: <=60 chars, primary keyword first -->
+  <title>Senior Developer Skills for OpenAI Codex | Agent Skills Pack</title>
+  <!-- Meta description: 150-160 chars, keyword + CTA -->
+  <meta name="description" content="Production-ready Senior Developer skill pack for OpenAI Codex. Fullstack dev, frontend UI & browser automation Agent Skills (SKILL.md). Clone & load in Codex CLI in 1 minute.">
+  <link rel="canonical" href="https://jiangeplus.github.io/senior-developer-codex/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Senior Developer Skills for OpenAI Codex">
+  <meta property="og:description" content="4 production-ready Agent Skills for Codex CLI: fullstack, frontend, browser automation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jiangeplus.github.io/senior-developer-codex/">
+  <meta property="og:image" content="https://jiangeplus.github.io/senior-developer-codex/assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Structured data 1: SoftwareSourceCode -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "senior-developer-codex",
+    "description": "Senior Developer skill pack for OpenAI Codex, converting an expert engineering workflow into Agent Skills (SKILL.md) loadable by Codex CLI and compatible agents.",
+    "codeRepository": "https://github.com/JIANGEPLUS/senior-developer-codex",
+    "programmingLanguage": "Markdown",
+    "license": "https://opensource.org/licenses/MIT",
+    "author": { "@type": "Person", "name": "JIANGEPLUS", "url": "https://github.com/JIANGEPLUS" }
+  }
+  </script>
+  <!-- Structured data 2: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is senior-developer-codex?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A production-ready Agent Skills pack for OpenAI Codex. It converts a battle-tested Senior Developer expert workflow into SKILL.md files that Codex CLI and any Agent Skills-compatible agent can load instantly." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which agents are supported?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Any agent compatible with the open Agent Skills (SKILL.md) standard, including OpenAI Codex CLI, Codex IDE extension, ChatGPT, and Claude Code." }
+      },
+      {
+        "@type": "Question",
+        "name": "What skills are included?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Four skills: senior-developer (engineering workflow master), fullstack-dev (REST API, auth, realtime, production hardening), frontend-dev (premium UI, motion systems, AI media), and browser-use (browser automation CLI)." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I install the skills?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Clone the repository and run `codex` inside it, or copy .agents/skills/* into ~/.agents/skills/ to enable the skills for all your projects." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it free? What is the license?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is completely free and released under the MIT license, usable for both personal and commercial projects." }
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root { --ink:#1f2430; --muted:#5b6472; --line:#e4e8ef; --bg:#f7f8fb; --brand:#2563eb; --brand-dark:#1e3a8a; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; color:var(--ink); background:#fff; line-height:1.7; }
+    .container { max-width:960px; margin:0 auto; padding:0 24px; }
+    header { background:linear-gradient(135deg,var(--brand-dark),var(--brand)); color:#fff; padding:72px 0 64px; text-align:center; }
+    header h1 { font-size:34px; margin-bottom:14px; line-height:1.3; }
+    header p { max-width:640px; margin:0 auto 28px; opacity:.93; font-size:17px; }
+    .btn { display:inline-block; background:#fff; color:var(--brand-dark); font-weight:600; padding:12px 28px; border-radius:8px; text-decoration:none; margin:0 8px 8px; }
+    .btn.ghost { background:transparent; border:1.5px solid rgba(255,255,255,.7); color:#fff; }
+    section { padding:56px 0; border-bottom:1px solid var(--line); }
+    section.alt { background:var(--bg); }
+    h2 { font-size:24px; margin-bottom:20px; }
+    h3 { font-size:17px; margin-bottom:6px; }
+    p.sub { color:var(--muted); max-width:680px; margin-bottom:24px; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px; }
+    section.alt .card { background:#fff; }
+    .card code { color:var(--brand); font-size:13.5px; }
+    pre { background:#0f172a; color:#e2e8f0; border-radius:10px; padding:18px 20px; font-size:13.5px; overflow-x:auto; line-height:1.6; }
+    .faq-item { margin-bottom:18px; }
+    .faq-item h3 { color:var(--brand-dark); }
+    footer { padding:32px 0; text-align:center; color:var(--muted); font-size:13.5px; }
+    footer a { color:var(--brand); }
+    @media(max-width:640px){ header h1{font-size:26px;} }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Senior Developer Skills<br>for OpenAI Codex</h1>
+    <p>Production-ready Agent Skills (SKILL.md) that turn Codex into a senior software engineer — fullstack architecture, premium frontend UI, and browser automation, loadable in 1 minute.</p>
+    <a class="btn" href="https://github.com/JIANGEPLUS/senior-developer-codex">★ Get it on GitHub</a>
+    <a class="btn ghost" href="#quickstart">Quick Start</a>
+  </div>
+</header>
+
+<section id="skills">
+  <div class="container">
+    <h2>What's inside — 4 production-ready skills</h2>
+    <p class="sub">Each skill follows the open Agent Skills standard (SKILL.md): a concise entry file with deep references loaded on demand.</p>
+    <div class="cards">
+      <div class="card"><h3><code>senior-developer</code></h3><p>Senior engineer workflow: task decomposition → incremental implementation → automated verification → delivery confirmation, with self-review checklists and error recovery.</p></div>
+      <div class="card"><h3><code>fullstack-dev</code></h3><p>Fullstack architecture & integration: REST API, authentication, realtime communication, and production hardening (9 deep references).</p></div>
+      <div class="card"><h3><code>frontend-dev</code></h3><p>Premium frontend UI: motion system selection matrix, AI media asset generation, and copywriting frameworks (11 deep references).</p></div>
+      <div class="card"><h3><code>browser-use</code></h3><p>Browser automation with browser-use CLI: navigation, screenshots, form filling, data extraction, and cloud browsers.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="quickstart" class="alt">
+  <div class="container">
+    <h2>Quick Start</h2>
+    <pre>git clone https://github.com/JIANGEPLUS/senior-developer-codex.git
+cd senior-developer-codex
+
+# Option A: run Codex inside the repo — skills are auto-discovered
+codex
+
+# Option B: install user-level for all projects
+mkdir -p ~/.agents/skills
+cp -r .agents/skills/* ~/.agents/skills/</pre>
+    <p class="sub" style="margin-top:14px">Or just describe your task without naming a skill — the agent matches by description automatically.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><h3>What is senior-developer-codex?</h3><p>A production-ready Agent Skills pack for OpenAI Codex. It converts a battle-tested Senior Developer expert workflow into SKILL.md files that Codex CLI and any compatible agent can load instantly.</p></div>
+    <div class="faq-item"><h3>Which agents are supported?</h3><p>Any agent compatible with the open Agent Skills (SKILL.md) standard: OpenAI Codex CLI, Codex IDE extension, ChatGPT, Claude Code, and more.</p></div>
+    <div class="faq-item"><h3>What skills are included?</h3><p>Four skills: senior-developer, fullstack-dev, frontend-dev, and browser-use — covering engineering workflow, fullstack architecture, premium UI, and browser automation.</p></div>
+    <div class="faq-item"><h3>How do I install the skills?</h3><p>Clone the repository and run <code>codex</code> inside it, or copy <code>.agents/skills/*</code> into <code>~/.agents/skills/</code> to enable them for all projects.</p></div>
+    <div class="faq-item"><h3>Is it free? What is the license?</h3><p>Completely free under the MIT license — usable for personal and commercial projects.</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p><a href="https://github.com/JIANGEPLUS/senior-developer-codex">senior-developer-codex</a> · MIT License · Built on the <a href="https://agentskills.io/">Agent Skills</a> standard</p>
+  </div>
+</footer>
+
+</body>
+</html>
